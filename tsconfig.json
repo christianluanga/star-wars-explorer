@@ -1,9 +1,0 @@
-{
-    "compilerOptions": {
-      "strict": true,
-      "outDir": "dist",
-      "target": "ES2018"
-    },
-    "include": ["src"]
-}
-  
