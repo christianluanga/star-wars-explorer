@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start": "nodemon src/server.js"
+    "start": "node src/server.js"
   },
   "jest": {
     "verbose": true
@@ -30,7 +30,8 @@
     "axios": "^0.22.0",
     "express": "^4.17.1",
     "graphql": "^15.6.1",
-    "graphql-tag": "^2.12.5"
+    "graphql-tag": "^2.12.5",
+    "nodemon": "^2.0.13"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.15.0",
